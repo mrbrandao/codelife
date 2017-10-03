@@ -7,7 +7,26 @@ So you have style, head, body and foot functions to align and display the screen
 :smile: Isn't fun!?   
   
 ![](gif/isca-cv.gif?raw=true)
-  
+
+### Run
+
+clone this repo:
+```
+git clone https://github.com/isca0/codelife.git
+```
+change the directory:
+``` 
+cd codelife
+```
+
+run:
+```
+./isca-cv.sh
+```
+
+Use numbers to paginate and x to quit. You can build a pdf with "P", but keep reading to see more about the pdf file.
+
+
 ### Dependencies
   
   * bash3+
