@@ -1,0 +1,14 @@
+# vim stuff
+*.swp
+*.swo
+*.swn
+*.swnx
+*.swnx
+*.swnx
+
+# Node Terminalizer Stuff
+node_modules/
+npm-debug.log*
+.npm
+package-lock.json
+package.json

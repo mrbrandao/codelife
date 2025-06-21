@@ -43,13 +43,13 @@
 
 ################
 #Colors
-red="\033[1;31;40m"
-green="\033[1;32;40m"
-yellow="\033[1;33;40m"
-blue="\033[1;34;40m"
-pink="\033[1;35;40m"
-cyan="\033[1;36;40m"
-white="\033[1;37;40m"
+red="\033[1;31m"
+green="\033[1;32m"
+yellow="\033[1;33m"
+blue="\033[1;34m"
+pink="\033[1;35m"
+cyan="\033[1;36m"
+white="\033[1;37m"
 clean="\033[0m"
 
 
@@ -187,7 +187,7 @@ screen0(){
 screen1(){
   clear
   declare -a block=("-- PRESENTATION --" "Hi, +" 
-"My name is Igor Brandão, I'm a 34 years old guy, who is immersed" 
+"My name is Igor Brandão, I'm a 41 years old guy, who is immersed" 
 "in networks, computers, unix'es and all kind of eletronic devices..." 
 "I grew up using command line tools and started using my first linux flavors" 
 "in 1998 whith Slackware 3.5 with old kernel 2.0... Good Times ;)" 
@@ -205,16 +205,15 @@ screen1(){
 screen2(){
   clear
   declare -a block=("-- FOR WORK --" ""$green"SKILL"$clean" +" 
-"At moment i work as Senior SysAdmin, at a company who cares of all"
-"comunications, like: EMAIL/VOIP/TextMessages for Banking Institutions." 
-"My main activities includes, administrate Geographic Clusters, manage"
-"public/private cloud's orquestrating/automating datacenters as a code." 
-"Bring SecOps/Devops culture, care with TDD and CI/CD and maitainence of"
-"ISO IEC 27001." "\n"
+"At moment i work as Senior Security Engineer , at Red Hat."
+"Here I hack and play with all kind of OpenSource Projects from Enginnering"
+"to AIDevSecOps, while my currently goals lies on Implementing Security" 
+"Standards across all Red Hat products. My main activities includes, "
+"develop and maintain Security Operation across multiple complex"
+"infrastructures."
 ""$green"WHERE AM I?"$clean"" "\n" 
-""$pink"*"$clean" WORK AT     ==> http://www.maisresultado.com.br"
-""$pink"*"$clean" SUPPORT FOR  ==> https://itau.com.br"
-""$pink"*"$clean" SUPPORT FOR  ==> https://santander.com.br"
+""$pink"*"$clean" WORK AT     ==> http://www.redhat.com.br"
+""$pink"*"$clean" SUPPORT FOR  ==> OpenSource Communities"
 ) 
 
   all
@@ -223,17 +222,17 @@ screen2(){
 screen3(){
   clear
   declare -a block=("-- KNOWLEDGE & EXPERIENCE --" ""$green"TOOLS"$clean" +" 
-"As long i work with computers here are some tools i use and have" 
+"Even difficult to list all tools, but here's a few, I have" 
 "a good experience:" "\n"
+""$pink"*"$clean" AI/MLOps (RHEL AI, OpenShift AI, Red Hat LightSpeed, Kubeflow).\n"
+""$pink"*"$clean" Container Orquestration (Many K8S Flavor my favorite is OpenShift).\n"
 ""$pink"*"$clean" Virtualization (Xen Citrix/VMWare VSphere/KVM).\n"
 ""$pink"*"$clean" OS (All Kind of GNU/Linux Flavors/BSDs/Windows - At moment CoreOS a Lot ;-))\n"
 ""$pink"*"$clean" Programing & Scripting (C/C++/Php/Python/JavaScript/Ruby/GO/Ksh/Csh/Bash).\n"
-""$pink"*"$clean" InfraAsCode Tools (Ansible is my favorite, i use Puppet for confs and Cheff).\n"
-""$pink"*"$clean" Orquestrators (Kubernetes and docker containers everywhere)\n"
+""$pink"*"$clean" InfraAsCode Tools (TerraForm and  Ansible are my favorites).\n"
+""$pink"*"$clean" Runtimes (podman containers everywhere)\n"
 ""$pink"*"$clean" Clustering (CARP+HAST/PACEMAKER+COROSYNC/HEARTBEAT+DRDB/DockerSwarm/Etcd2)\n"
-""$pink"*"$clean" DataCenterAsCode (I just started to use TerraForm but i study OpenStack too)\n"
-""$pink"*"$clean" PubClouds (In Amazon i have experience with EC2, i also have hosts on"
-"IBM Bluemix and GCP too.)\n"
+""$pink"*"$clean" DataCenterAsCode (OpenStack)\n"
 )
   all
 }
@@ -261,10 +260,10 @@ screen4(){
 screen5(){
   clear
   declare -a block=("-- FOLLOW THE WHITE RABBIT --" ""$green"CONTACT"$clean" +"
-"It whill be amazing to work there, if you read this please let me know,"
-"and send me a hello to "$pink"igorsca at protonmail dot com"$clean.""
-"or Telegram "$pink"@iscacsi"$clean"" "\n"
-"Ow... I can't forget... you request cv as a PDF format, if this really matters"
+    "If you came to here, you finally can have my contact information,"
+"send me a hello to "$pink"mrbrandao at proton dot me"$clean.""
+"or Telegram "$pink"@mrisca"$clean"" "\n"
+"Ow... I can't forget... if you request cv as a PDF format, if this really matters"
 "you can just press "$white"\"P\""$clean" to take a copy..."
 )
 

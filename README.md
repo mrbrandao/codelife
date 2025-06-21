@@ -6,7 +6,7 @@ You can try to refactor this code to use your CV, the code was written using a w
 So you have style, head, body and foot functions to align and display the screen as pages...  
 :smile: Isn't fun!?   
   
-![](gif/isca-cv.gif?raw=true)
+![](gif/codelive-06-25.gif?raw=true)
 
 ### Run
 
@@ -26,6 +26,9 @@ run:
 
 Use numbers to paginate and x to quit. You can build a pdf with "P", but keep reading to see more about the pdf file.
 
+### Recording Your Own Demo
+
+Want to create your own GIF demo like the one above? Check out the [Terminalizer Recording Guide](gif/README.md) for detailed instructions on how to record and render terminal sessions using the included configuration files.
 
 ### Dependencies
   
@@ -65,5 +68,5 @@ So the tail must be:
   
 Hope you enjoy! :smiley:
   
-_Isca disclaims all copyright interest in the program “isca-cv.sh” (which build curriculum vitae as code) is written by Igor Brandao_  
+_Isca disclaims all copyright interest in the program "isca-cv.sh" (which build curriculum vitae as code) is written by Igor Brandao_  
   
